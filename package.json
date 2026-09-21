@@ -1,0 +1,12 @@
+{
+  "name": "cirofy-landing-workspace",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter @cirofy/landing dev",
+    "build": "pnpm --filter @cirofy/shared build && pnpm --filter @cirofy/landing build",
+    "start": "pnpm --filter @cirofy/landing start",
+    "lint": "pnpm --filter @cirofy/landing lint"
+  },
+  "engines": { "node": "20.x" }
+}
